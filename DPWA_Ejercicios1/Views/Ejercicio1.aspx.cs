@@ -13,5 +13,11 @@ namespace DPWA_Ejercicios1.Views
         {
 
         }
+
+        protected void btnCalculate_Click(object sender, EventArgs e)
+        {
+            DPWA_Ejercicios1.Models.Ejercicios operation = new Models.Ejercicios();
+            this.lblAnswer.Text = operation.Ejercicio1(this.txtInches.Text);
+        }
     }
 }
