@@ -13,5 +13,11 @@ namespace DPWA_Ejercicios1.Views
         {
 
         }
+
+        protected void btnCalculate_Click(object sender, EventArgs e)
+        {
+            Models.Ejercicios procees = new Models.Ejercicios();
+            lblAnswer.Text = procees.Ejercicio10(txtValx.Text);
+        }
     }
 }

@@ -13,5 +13,11 @@ namespace DPWA_Ejercicios1.Views
         {
 
         }
+
+        protected void btnCalculate_Click(object sender, EventArgs e)
+        {
+            Models.Ejercicios process = new Models.Ejercicios();
+            this.lblAnswer.Text = process.Ejercicio3(txtYears.Text, txtMonths.Text);
+        }
     }
 }

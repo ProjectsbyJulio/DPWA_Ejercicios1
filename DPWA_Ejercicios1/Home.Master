@@ -31,20 +31,17 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ejercicios
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="Views/Ejercicio1.aspx">Ejercicio 1</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio2.aspx">Ejercicio 2</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio3.aspx">Ejercicio 3</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio4.aspx">Ejercicio 4</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio5.aspx">Ejercicio 5</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio6.aspx">Ejercicio 6</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio7.aspx">Ejercicio 7</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio8.aspx">Ejercicio 8</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio9.aspx">Ejercicio 9</a></li>
-                            <li><a class="dropdown-item" href="Views/Ejercicio10.aspx">Ejercicio 10</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio1.aspx">Ejercicio 1</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio2.aspx">Ejercicio 2</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio3.aspx">Ejercicio 3</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio4.aspx">Ejercicio 4</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio5.aspx">Ejercicio 5</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio6.aspx">Ejercicio 6</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio7.aspx">Ejercicio 7</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio8.aspx">Ejercicio 8</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio9.aspx">Ejercicio 9</a></li>
+                            <li><a class="dropdown-item" href="/Views/Ejercicio10.aspx">Ejercicio 10</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca De</a>
                     </li>
                 </ul>
             </div>
@@ -56,5 +53,8 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
+    <footer class="bg-dark">
+        <p class="text-white text-center pt-5 pb-5 mb-0">&#169; 2021 Julio Canizalez</p>
+    </footer>
 </body>
 </html>

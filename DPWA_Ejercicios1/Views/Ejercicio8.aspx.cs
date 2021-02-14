@@ -13,5 +13,11 @@ namespace DPWA_Ejercicios1.Views
         {
 
         }
+
+        protected void calDate_SelectionChanged(object sender, EventArgs e)
+        {
+            Models.Ejercicios process = new Models.Ejercicios();
+            lblAnswer.Text = process.Ejercicio8(calDate.SelectedDate);
+        }
     }
 }
